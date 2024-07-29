@@ -42,7 +42,7 @@ object Inventory {
     }.toMap
     println(s"Merged Inventory: $mergedInventory")
 
-    // V. Check if a product with a specific ID (e.g., 102) exists and print its details
+    // V. Check if a product with a specific ID 
     val productIdToCheck = 102
     inventory1.get(productIdToCheck) match {
       case Some((name, qty, price)) =>
